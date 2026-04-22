@@ -1,0 +1,1 @@
+# SOLIDWORKS-Config-for-TUM-Students-
