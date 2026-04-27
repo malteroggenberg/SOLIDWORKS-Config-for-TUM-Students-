@@ -765,9 +765,9 @@ REGEDIT4
 "Client"=dword:00000002
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Document Templates]
-"Default Part template"="C:\\Users\\malte\\OneDrive\\Malte\\Documents\\GitHub\\SOLIDWORKS-Config-for-TUM-Students-\\Templates\\part-V3-Arial.prtdot"
-"Default Assy template"="C:\\Users\\malte\\OneDrive\\Malte\\Documents\\GitHub\\SOLIDWORKS-Config-for-TUM-Students-\\Baugruppe.asmdot"
-"Default Draw Template"="C:\\Users\\malte\\OneDrive\\Malte\\Documents\\GitHub\\SOLIDWORKS-Config-for-TUM-Students-\\Templates\\drawing-A3-TUM-V3.drwdot"
+"Default Part template"="C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\Teil.prtdot"
+"Default Assy template"="C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\Baugruppe.asmdot"
+"Default Draw Template"="C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\Zeichnung.drwdot"
 "Use Default Document Templates"=dword:00000001
 "Templates Last Tab Used"="Templates"
 "Only Show Standard Formats"=dword:00000000
@@ -1083,7 +1083,7 @@ REGEDIT4
 "Symbol Library Folders"="C:\\ProgramData\\SolidWorks\\SOLIDWORKS 2025\\lang\\german"
 "Costing template Folders"="C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\german"
 "Costing templates Folders"="C:\\ProgramData\\SolidWorks\\SOLIDWORKS 2025\\lang\\german\\Costing templates"
-"Sheet Format Folders"="C:\\Users\\malte\\OneDrive\\Solidworks-Config\\Sheet-format"
+"Sheet Format Folders"="C:\\Users\\malte\\OneDrive\\GitHub\\SOLIDWORKS-Config-for-TUM-Students-\\Sheet-format"
 "Bend Table Folders"="C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\german\\Sheetmetal Bend Tables"
 "Web Folders"=""
 "BOM Template Folders"="C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\german"
@@ -1866,7 +1866,7 @@ REGEDIT4
 "SOLIDWORKS Design Checker"="0.128"
 "SOLIDWORKS CAM 2025"="5.229"
 "sldFuncFeat_AutoLoaded"="0.475"
-"sldanalysistools_AutoLoaded"="0.166"
+"sldanalysistools_AutoLoaded"="0.231"
 "C:\PROGRA~1\SOLIDW~1\SOLIDW~1\\Toolbox\\SwBrowser.dll"="2.13"
 "C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\\Toolbox\\SwBrowser.dll"="2.487"
 " Sheetmetal Costing analysis_AutoLoaded"="0.33"
@@ -5563,6 +5563,92 @@ REGEDIT4
 "80002"=dword:00000000
 "80003"=dword:00000000
 "98301"=dword:00000000
+"34623"=dword:00000000
+"34631"=dword:00000000
+"38662"=dword:00000000
+"52099"=dword:00000000
+"34622"=dword:00000000
+"34630"=dword:00000000
+"53162"=dword:00000000
+"49094"=dword:00000000
+"52688"=dword:00000000
+"52502"=dword:00000000
+"34482"=dword:00000000
+"34480"=dword:00000000
+"38705"=dword:00000000
+"34624"=dword:00000000
+"34632"=dword:00000000
+"34619"=dword:00000000
+"43563"=dword:00000000
+"37672"=dword:00000000
+"37684"=dword:00000000
+"37685"=dword:00000000
+"34625"=dword:00000000
+"34633"=dword:00000000
+"59864"=dword:00000000
+"37668"=dword:00000000
+"55282"=dword:00000000
+"34545"=dword:00000000
+"34546"=dword:00000000
+"34601"=dword:00000000
+"34544"=dword:00000000
+"34531"=dword:00000000
+"52422"=dword:00000000
+"34609"=dword:00000000
+"109"=dword:00000000
+"34506"=dword:00000000
+"34565"=dword:00000000
+"38403"=dword:00000000
+"33849"=dword:00000000
+"34488"=dword:00000000
+"33995"=dword:00000000
+"33996"=dword:00000000
+"33998"=dword:00000000
+"33999"=dword:00000000
+"53317"=dword:00000000
+"37793"=dword:00000000
+"53244"=dword:00000000
+"37792"=dword:00000000
+"37789"=dword:00000000
+"37790"=dword:00000000
+"37791"=dword:00000000
+"34529"=dword:00000000
+"34527"=dword:00000000
+"34528"=dword:00000000
+"34525"=dword:00000000
+"34526"=dword:00000000
+"34598"=dword:00000000
+"34495"=dword:00000000
+"34567"=dword:00000000
+"34497"=dword:00000000
+"49018"=dword:00000000
+"34594"=dword:00000000
+"34605"=dword:00000000
+"34573"=dword:00000000
+"34561"=dword:00000000
+"34522"=dword:00000000
+"38548"=dword:00000000
+"53112"=dword:00000000
+"34606"=dword:00000000
+"34611"=dword:00000000
+"34569"=dword:00000000
+"34584"=dword:00000000
+"34532"=dword:00000000
+"34491"=dword:00000000
+"34490"=dword:00000000
+"34585"=dword:00000000
+"34537"=dword:00000000
+"34541"=dword:00000000
+"34494"=dword:00000000
+"38549"=dword:00000000
+"34559"=dword:00000000
+"34513"=dword:00000000
+"34626"=dword:00000000
+"34634"=dword:00000000
+"43554"=dword:00000000
+"51672"=dword:00000000
+"34511"=dword:00000000
+"34510"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Page]
 "Use Documents Settings"=dword:00000001
@@ -7716,7 +7802,7 @@ REGEDIT4
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21]
 "activecontextid"="0"
-"Tab Props"="24960,1,0,31"
+"Tab Props"="24960,1,1,31"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext0]
 "contextid"="0"
@@ -8218,6 +8304,12 @@ REGEDIT4
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab24\GB0]
 
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab25]
+"RefName"="Neue Registerkarte"
+"Tab Props"="Neue Registerkarte,0,1,-1"
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab25\GB0]
+
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab3]
 "Tab Props"="23274,1,1,24"
 
@@ -8556,6 +8648,7 @@ REGEDIT4
 "Btn11"="37797"
 "Btn12"="38310"
 "Btn13"="32906"
+"Btn14"="34126"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simulation]
 "SolverOffload"=dword:00000000
@@ -8627,7 +8720,7 @@ REGEDIT4
 "New Dump File Available"=dword:00000000
 "Finished Last Time"=dword:00000000
 "Last Date Code"="33/2025268"
-"Check In"=dword:000000d7
+"Check In"=dword:00000406
 "Idle"=dword:0000073c
 "Last Settings Time"=dword:69ee26eb
 "Disable Crash Diagnosis"=dword:00000000
@@ -8788,33 +8881,12 @@ REGEDIT4
 "UserCommandList"=hex: e1,fc,00,00,e2,fc,00,00,6b,fd,00,00,
 "Title"="SOLIDWORKS CAM TBM"
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\User Interface\Custom API Toolbars\59534]
-"ModuleName"="{CEAC97A6-01F7-11D3-9398-00C04F79BFFE}"
-"ToolbarID"=dword:0000e88e
-"CommandList"=hex: 11,aa,00,00,
-"INTERNAL"=dword:00000001
-"UserID"=dword:0000e88e
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\User Interface\Custom API Toolbars\59535]
-"ModuleName"="{B25A676F-52F1-4886-8004-ABEB9201F4D7}"
-"ToolbarID"=dword:0000e88f
-"CommandList"=hex: da,c8,00,00,
-"INTERNAL"=dword:00000001
-"UserID"=dword:0000e88f
-
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\User Interface\Custom API Toolbars\59536]
 "ModuleName"="{F80FA0F1-B13D-11D4-944A-000629992CFE}"
 "ToolbarID"=dword:0000e890
 "CommandList"=hex: 17,aa,00,00,16,aa,00,00,18,aa,00,00,19,aa,00,00,1a,aa,00,00,1b,aa,00,00,1c,aa,00,00,00,00,00,00,1d,aa,00,00,1e,aa,00,00,24,aa,00,00,21,aa,00,00,22,aa,00,00,00,00,00,00,23,aa,00,00,10,aa,00,00,
 "INTERNAL"=dword:00000002
 "UserID"=dword:0000e890
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\User Interface\Custom API Toolbars\59537]
-"ModuleName"="{ED78333F-D5DB-11D4-BD5A-00C04F019809}"
-"ToolbarID"=dword:0000e891
-"CommandList"=hex: 25,aa,00,00,26,aa,00,00,27,aa,00,00,28,aa,00,00,29,aa,00,00,
-"INTERNAL"=dword:00000001
-"UserID"=dword:0000e891
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\User Interface\Custom API Toolbars\59538]
 "ModuleName"="{7CF8CA03-1DCE-11D1-A89B-0020AF351FA9}"
@@ -8830,68 +8902,12 @@ REGEDIT4
 "INTERNAL"=dword:00000002
 "UserID"=dword:0000e893
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\User Interface\Custom API Toolbars\59540]
-"ModuleName"="{5BBE0035-6CD5-4521-974E-66C2A3347BDD}"
-"ToolbarID"=dword:0000e894
-"CommandList"=hex: 34,aa,00,00,33,aa,00,00,32,aa,00,00,31,aa,00,00,30,aa,00,00,2f,aa,00,00,
-"INTERNAL"=dword:00000001
-"UserID"=dword:0000e894
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\User Interface\Custom API Toolbars\59541]
-"ModuleName"="{CD0C64E9-8BDA-11D6-B09D-00065B87F34E}"
-"ToolbarID"=dword:0000e895
-"CommandList"=hex: 35,aa,00,00,00,00,00,00,36,aa,00,00,00,00,00,00,37,aa,00,00,38,aa,00,00,39,aa,00,00,3a,aa,00,00,3b,aa,00,00,00,00,00,00,3c,aa,00,00,3d,aa,00,00,3e,aa,00,00,00,00,00,00,3f,aa,00,00,40,aa,00,00,41,aa,00,00,ff,ff,ff,ff,bd,55,ff,ff,bc,55,ff,ff,ff,ff,ff,ff,bb,55,ff,ff,00,00,00,00,45,aa,00,00,ff,ff,ff,ff,b9,55,ff,ff,ff,ff,ff,ff,
-"INTERNAL"=dword:00000001
-"UserID"=dword:0000e895
-
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\User Interface\Custom API Toolbars\59542]
 "ModuleName"="{4C4806E0-9D77-4DB2-891B-C1FD9C309AF8}"
 "ToolbarID"=dword:0000e896
 "CommandList"=hex: 56,aa,00,00,84,aa,00,00,85,aa,00,00,86,aa,00,00,4b,aa,00,00,
 "INTERNAL"=dword:00000001
 "UserID"=dword:0000e896
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\User Interface\Custom API Toolbars\59544]
-"ModuleName"="{CEAC97A6-01F7-11D3-9398-00C04F79BFFE}"
-"ToolbarID"=dword:0000e898
-"CommandList"=hex: a0,a6,00,00,a1,a6,00,00,a2,a6,00,00,a3,a6,00,00,a4,a6,00,00,
-"INTERNAL"=dword:00000001
-"UserID"=dword:0000e898
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\User Interface\Custom API Toolbars\59545]
-"ModuleName"="{CEAC97A6-01F7-11D3-9398-00C04F79BFFE}"
-"ToolbarID"=dword:0000e899
-"CommandList"=hex: 5e,aa,00,00,00,00,00,00,5d,aa,00,00,5c,aa,00,00,a6,a6,00,00,00,00,00,00,5b,aa,00,00,5a,aa,00,00,59,aa,00,00,5a,cd,00,00,00,00,00,00,58,aa,00,00,57,aa,00,00,55,aa,00,00,00,00,00,00,54,aa,00,00,53,aa,00,00,00,00,00,00,52,aa,00,00,51,aa,00,00,50,aa,00,00,4f,aa,00,00,00,00,00,00,4e,aa,00,00,
-"INTERNAL"=dword:00000001
-"UserID"=dword:0000e899
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\User Interface\Custom API Toolbars\59546]
-"ModuleName"="{CEAC97A6-01F7-11D3-9398-00C04F79BFFE}"
-"ToolbarID"=dword:0000e89a
-"CommandList"=hex: 83,aa,00,00,82,aa,00,00,00,00,00,00,81,aa,00,00,80,aa,00,00,7f,aa,00,00,7e,aa,00,00,00,00,00,00,7d,aa,00,00,7c,aa,00,00,7b,aa,00,00,7a,aa,00,00,
-"INTERNAL"=dword:00000001
-"UserID"=dword:0000e89a
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\User Interface\Custom API Toolbars\59547]
-"ModuleName"="{CEAC97A6-01F7-11D3-9398-00C04F79BFFE}"
-"ToolbarID"=dword:0000e89b
-"CommandList"=hex: 78,aa,00,00,77,aa,00,00,76,aa,00,00,00,00,00,00,75,aa,00,00,74,aa,00,00,00,00,00,00,73,aa,00,00,72,aa,00,00,71,aa,00,00,70,aa,00,00,6f,aa,00,00,
-"INTERNAL"=dword:00000001
-"UserID"=dword:0000e89b
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\User Interface\Custom API Toolbars\59548]
-"ModuleName"="{CEAC97A6-01F7-11D3-9398-00C04F79BFFE}"
-"ToolbarID"=dword:0000e89c
-"CommandList"=hex: 6e,aa,00,00,6d,aa,00,00,6c,aa,00,00,6b,aa,00,00,00,00,00,00,6a,aa,00,00,69,aa,00,00,68,aa,00,00,67,aa,00,00,66,aa,00,00,00,00,00,00,65,aa,00,00,64,aa,00,00,63,aa,00,00,62,aa,00,00,a7,a6,00,00,00,00,00,00,ef,a9,00,00,61,aa,00,00,f0,a9,00,00,3c,da,00,00,60,aa,00,00,a5,a6,00,00,ff,ff,ff,ff,a0,55,ff,ff,
-"INTERNAL"=dword:00000001
-"UserID"=dword:0000e89c
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\User Interface\Custom API Toolbars\59549]
-"ModuleName"="{CEAC97A6-01F7-11D3-9398-00C04F79BFFE}"
-"ToolbarID"=dword:0000e89d
-"CommandList"=hex: f7,a9,00,00,f6,a9,00,00,00,00,00,00,f5,a9,00,00,f4,a9,00,00,00,00,00,00,f3,a9,00,00,f2,a9,00,00,
-"INTERNAL"=dword:00000001
-"UserID"=dword:0000e89d
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\User Interface\CustomMenu]
 "Menu Pinned"=dword:00000001
@@ -8904,7 +8920,7 @@ REGEDIT4
 "uiInsertCompExistingDveDlg3_copts"="dexps_7_prv_1_tfmexps_0_rotdlg_1_"
 "uiNamedViewDveDlg_c"="0,1,-1,-1,-1,-1,0,0,217,476"
 "uiNamedViewDveDlg_copts"="dexps_8191_"
-"uiDVEDefaultDialog_c"="0,1,-1,-1,-1,-1,0,0,221,80"
+"uiDVEDefaultDialog_c"="0,1,-1,-1,-1,-1,0,0,217,80"
 "uiWelcomeScreenDlg_c"="0,1,-1,-1,-1,-1,373,0,1173,650"
 "uiOptionsBase_c"="0,1,-1,-1,-1,-1,429,30,1490,1049"
 "uiDveSketchMessageDlg_c"="0,1,-1,-1,-1,-1,0,0,221,93"
