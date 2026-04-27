@@ -66,6 +66,16 @@ Set:
 
 ---
 
+## Disclaimer
+
+This repository contains modified drawing templates based on original materials provided by the TUM FML chair.
+
+The templates have been significantly adapted (fonts, layout, structure, and content).
+Original elements may still be present.
+
+If there are any concerns regarding this publication, please feel free to contact me and I will take appropriate action.
+
+
 ## 📁 Repository Structure
 
 Note: If you use OneDrive, make sure the config folder is set to “Always keep on this device” to avoid missing file paths in SOLIDWORKS.
