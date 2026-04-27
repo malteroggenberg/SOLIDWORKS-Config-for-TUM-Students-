@@ -1,223 +1,132 @@
 # SOLIDWORKS TUM Config
 
-Dieses Repository enthält meine komplette SOLIDWORKS-Konfiguration für den Uni-Alltag an der TUM.
+Custom SOLIDWORKS configuration optimized for student workflows (based on FML templates).
 
-Es besteht aus zwei Teilen:
-
-- **Main Config (System + UI)** → allgemeine Einstellungen, Farben, Workflow, Oberfläche  
-- **Einzelconfigs (Templates)** → Parts, Assemblies und Drawings (Bemaßungen, Schrift, Normen etc.)
-
-👉 **Wichtig:**  
-Beides gehört zusammen. Nur die Systemeinstellungen zu importieren reicht nicht – die Templates müssen ebenfalls eingebunden werden, sonst funktioniert das Setup nicht korrekt.
-
-Für die Templates gibt es ein separates README.
+Includes:
+- optimized UI & workflow
+- clean visual settings
+- improved templates (Parts, Assemblies, Drawings)
 
 ---
 
-# Ziel
+## 🚀 Quick Installation (1–2 minutes)
 
-Die Konfiguration soll SOLIDWORKS:
+1. Download this repository  
+   → Code → Download ZIP
 
-- übersichtlicher machen  
-- typische Klickwege verkürzen  
-- Zeichnungen sauberer darstellen  
-- einen konsistenten Workflow geben  
+2. Extract the folder
 
----
+3. Run:
 
-# Main Settings (Überblick)
+install_font.bat
 
-## Anzeige
+(required for correct drawing appearance)
 
-- Kanten geglättet für bessere Darstellung  
-- Performance bewusst unverändert gelassen  
+4. Open SOLIDWORKS
 
-→ Ziel: saubere Optik ohne Performanceverlust
+5. Import settings:
 
----
+Tools → Save/Restore Settings → Restore
 
-## Farben
+→ select the `.sldreg` file
 
-- Zeichnungslinien vereinheitlicht (keine störenden Farben wie lila)  
-- Ebene „Vorne“ leicht hervorgehoben  
+6. Set file locations:
 
-→ Ziel: bessere Lesbarkeit und Orientierung
+Tools → Options → File Locations
 
----
+Set:
+- Document Templates
+- Sheet Formats  
+→ point to the folders from this repo
 
-## Dateipositionen
+  ⚠️ For Sheet Formats:
+   Remove the default SOLIDWORKS path to avoid conflicts.
+   (For other categories, keeping the default paths is fine.)
 
-- Templates und Sheet Formats sauber eingebunden  
-- nur relevante Dateien werden angezeigt  
+7. Check default templates:
 
-→ Ziel: schnelleres Arbeiten, weniger Suchen
+Tools → Options → Default Templates
 
----
+Set:
+- Part
+- Assembly
+- Drawing
 
-## Standardvorlagen
+8. Restart SOLIDWORKS
 
-- Part / Assembly / Drawing direkt auf eigene Templates gesetzt  
-
-→ Ziel: neue Dateien starten immer mit der richtigen Basis
-
----
-
-## Workflow / UI
-
-Der Fokus liegt hier auf Zugriffsgeschwindigkeit.
-
-Anpassungen u. a.:
-
-- Filter sichtbar platziert  
-- Gleichungen direkt erreichbar  
-- Messwerkzeug schnell verfügbar  
-- Referenzgeometrie schneller zugänglich  
-- Skizze reparieren sichtbar gemacht  
-- Beziehungen anzeigen / hinzufügen schneller erreichbar  
-- relevante Tabs (z. B. Blech, Schweißkonstruktion) aktiviert  
-
-→ Ziel: weniger Menüsuche, schnelleres Arbeiten
+✅ Done.
 
 ---
 
-## Enthaltene Einstellungen
+## ⚠️ Important
 
-Der Export enthält:
-
-- Systemoptionen  
-- CommandManager & Symbolleisten  
-- Tastenkombinationen  
-- Mausgesten  
-- Menü-Anpassungen  
-
-→ das Setup betrifft also nicht nur Optionen, sondern auch den kompletten Workflow
+- Templates are **required**  
+- System settings alone are **not enough**  
+- Without the font, drawings will look incorrect
 
 ---
 
-# Wichtiger Hinweis zu Templates
+## 📁 Repository Structure
 
-Dokumentspezifische Einstellungen wie:
+Note: If you use OneDrive, make sure the config folder is set to “Always keep on this device” to avoid missing file paths in SOLIDWORKS.
 
-- Bemaßungsstil  
-- Schriftarten  
-- Linienstärken  
-- Zeichnungsnormen  
+/Templates → Part, Assembly, Drawing templates
+/Sheet Formats → Drawing layouts (FML-based)
+/Settings → SOLIDWORKS config (.sldreg)
+/install_font.bat → installs required font
 
-sind **in den Templates enthalten**, nicht in den Systemeinstellungen.
-
-👉 Deshalb zwingend notwendig:
-
-- Templates mit herunterladen  
-- korrekt einbinden  
-
-Ohne Templates ist das Setup unvollständig.
 
 ---
 
-# Installation
+##  What this config improves
 
-## 1. Dateien herunterladen
-Repository klonen oder herunterladen und entpacken.
-
----
-
-## 2. Ordner ablegen
-Empfohlen z. B.:
-Documents/SOLIDWORKS Config
-
-Ich habe Sie auf OneDrive, am besten sollten die Ordner immer auf dem PC verfügbar sein (siehe README Templates)
+- faster workflow (less menu navigation)
+- cleaner drawings
+- consistent setup across projects
+- better visual clarity
 
 ---
 
-## 3. Einstellungen importieren
+##  More Information
 
-In SOLIDWORKS:
+For details about drawing templates and changes:
 
-
-Extras → Einstellungen speichern/wiederherstellen → Wiederherstellen
-
-
-→ `.sldreg` auswählen und importieren
+→ see `docs/DRAWINGS.md` or docs/SETTINGS.md`
 
 ---
 
-## 4. Templates einbinden
+##  Notes
 
-In SOLIDWORKS:
+- Tested for typical student use (TUM context)
+- Menu names may vary slightly depending on SOLIDWORKS Version
 
+##  Fonts
 
-Extras → Optionen → Dateipositionen
+This project includes fonts by Peter Wiegel:  
+https://www.peter-wiegel.de
 
+These fonts are free to use, including commercial use,  
+as long as they are not sold individually.
 
-Folgende Pfade setzen:
-
-- Dokumentvorlagen  
-- Blattformate  
-
-→ auf die Ordner aus dem Repository zeigen lassen
-
----
-
-## 5. Standardvorlagen prüfen
-
-
-Extras → Optionen → Standardvorlagen
-
-
-- Part  
-- Assembly  
-- Drawing  
-
-→ auf die richtigen Templates setzen
+All rights belong to the original author.
 
 ---
 
-## 6. Neustart
+##  Troubleshooting
 
-SOLIDWORKS einmal neu starten
+If something doesn’t work:
 
----
-
-# Kurzer Check
-
-Nach dem Import:
-
-- stimmen die Farben?  
-- sind die richtigen Tabs sichtbar?  
-- sind wichtige Tools schnell erreichbar?  
-- werden die Templates angezeigt?  
-
-Wenn ja, passt alles.
+1. Check file paths  
+2. Check templates  
+3. Restart SOLIDWORKS  
 
 ---
 
-# Zielgruppe
+## Summary
 
-- TUM-Studierende  
-- alle, die viel mit Drawings arbeiten  
-- alle, die einen sauberen Standard-Workflow wollen  
+This setup combines:
+- clean visuals  
+- fast workflow  
+- consistent templates  
 
----
-
-# Hinweis
-
-Je nach SOLIDWORKS-Version können einzelne Menüs leicht anders heißen.
-
-Wenn etwas nicht funktioniert:
-
-1. Pfade prüfen  
-2. Templates prüfen  
-3. SOLIDWORKS neu starten  
-
----
-
-# Zusammenfassung
-
-Das Setup kombiniert:
-
-- saubere Darstellung  
-- klare Struktur  
-- schnelle Bedienung  
-- konsistente Templates  
-
-→ weniger Klicks, weniger Chaos, besserer Workflow
+→ less friction, better productivity
