@@ -638,36 +638,6 @@ REGEDIT4
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Customization]
 "cusFileVersionID"=dword:0000012c
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Customization\tPlate0]
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Customization\tPlate0\Custom Accelerators]
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Customization\tPlate0\Custom Accelerators\AddArray]
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Customization\tPlate0\Custom Accelerators\SubArray]
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Customization\tPlate0\Custom Menus]
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Customization\tPlate1]
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Customization\tPlate1\Custom Accelerators]
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Customization\tPlate1\Custom Accelerators\AddArray]
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Customization\tPlate1\Custom Accelerators\SubArray]
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Customization\tPlate1\Custom Menus]
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Customization\tPlate2]
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Customization\tPlate2\Custom Accelerators]
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Customization\tPlate2\Custom Accelerators\AddArray]
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Customization\tPlate2\Custom Accelerators\SubArray]
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Customization\tPlate2\Custom Menus]
-
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Default Lighting]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Default Lighting\Default]
@@ -781,66 +751,23 @@ REGEDIT4
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\DockingPaneLayouts\DockingPaneLayout]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\DockingPaneLayouts\DockingPaneLayout\Pane-1]
-"Type"=dword:00000000
-"DockingCX"=dword:000000c8
-"DockingCY"=dword:00000078
-"Title"="CommandManager aktivieren"
-"ID"=dword:00000228
-"Options"=dword:00000020
-"DockingHolder"=dword:00000004
-"FloatingHolder"=dword:00000007
-"LastHolder"=dword:00000007
+"Type"=dword:00000002
+"Horiz"=dword:00000001
+"Panes"=dword:00000001
+"Pane-1"=dword:00000002
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\DockingPaneLayouts\DockingPaneLayout\Pane-2]
-"Type"=dword:00000002
-"Horiz"=dword:00000001
-"Panes"=dword:00000002
-"Pane-1"=dword:00000003
-"Pane-2"=dword:00000004
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\DockingPaneLayouts\DockingPaneLayout\Pane-3]
 "Type"=dword:00000004
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\DockingPaneLayouts\DockingPaneLayout\Pane-4]
-"Type"=dword:00000001
-"DockingCX"=dword:000000c8
-"DockingCY"=dword:00000078
-"Panes"=dword:00000000
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\DockingPaneLayouts\DockingPaneLayout\Pane-5]
-"Type"=dword:00000003
-"WindowRectTopPos"=dword:0000006c
-"WindowRectBottomPos"=dword:00000103
-"WindowRectLeftPos"=dword:00000344
-"WindowRectRightPos"=dword:00000428
-"ExpandedHeight"=dword:00000097
-"TopContaner"=dword:00000006
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\DockingPaneLayouts\DockingPaneLayout\Pane-6]
-"Type"=dword:00000002
-"DockingCX"=dword:000000c8
-"DockingCY"=dword:00000078
-"Horiz"=dword:00000001
-"Panes"=dword:00000001
-"Pane-1"=dword:00000007
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\DockingPaneLayouts\DockingPaneLayout\Pane-7]
-"Type"=dword:00000001
-"DockingCX"=dword:000000c8
-"DockingCY"=dword:00000078
-"Panes"=dword:00000001
-"Selected"=dword:00000001
-"Pane-1"=dword:00000001
-
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\DockingPaneLayouts\DockingPaneLayout\Summary]
-"Panes"=dword:00000007
-"TopContainer"=dword:00000002
-"Client"=dword:00000003
+"Panes"=dword:00000002
+"TopContainer"=dword:00000001
+"Client"=dword:00000002
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Document Templates]
-"Default Part template"="C:\\Users\\malte\\OneDrive\\Solidworks-Config\\Templates\\part-V2.prtdot"
-"Default Assy template"="C:\\ProgramData\\SolidWorks\\SOLIDWORKS 2025\\templates\\Baugruppe.asmdot"
-"Default Draw Template"="C:\\Users\\malte\\OneDrive\\Solidworks-Config\\Templates\\drawing-A3-TUM-V3.drwdot"
+"Default Part template"="C:\\Users\\malte\\OneDrive\\Malte\\Documents\\GitHub\\SOLIDWORKS-Config-for-TUM-Students-\\Templates\\part-V3-Arial.prtdot"
+"Default Assy template"="C:\\Users\\malte\\OneDrive\\Malte\\Documents\\GitHub\\SOLIDWORKS-Config-for-TUM-Students-\\Baugruppe.asmdot"
+"Default Draw Template"="C:\\Users\\malte\\OneDrive\\Malte\\Documents\\GitHub\\SOLIDWORKS-Config-for-TUM-Students-\\Templates\\drawing-A3-TUM-V3.drwdot"
 "Use Default Document Templates"=dword:00000001
 "Templates Last Tab Used"="Templates"
 "Only Show Standard Formats"=dword:00000000
@@ -1151,7 +1078,7 @@ REGEDIT4
 "Macro Feature Folders"=""
 "Hyperlink History"="http://help.solidworks.com/Help.aspx?V=2025&L=german&P=1&C=sldworks&I=133698&F=;http://help.solidworks.com/Help.aspx?V=2025&L=german&P=1&C=sldworks&I=139094&F=;http://help.solidworks.com/Help.aspx?V=2025&L=german&P=1&C=sldworks&I=145526&F=;http://help.solidworks.com/Help.aspx?V=2025&L=german&P=1&C=sldworks&I=135701&F=;http://help.solidworks.com/Help.aspx?V=2025&L=german&P=1&C=sldworks&I=135000&F=;http://my.matereality.com/Portal/Solidworks.aspx?study_type=0&version=SimulationPremium&token=530153E3BAEBE46A982FDB6AF93BCA56;http://www.solidworks.com"
 "Custom Symbol Folders"=""
-"Document Template Folders"="C:\\Users\\malte\\OneDrive\\Solidworks-Config\\Templates;C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates"
+"Document Template Folders"="C:\\Users\\malte\\OneDrive\\Malte\\Documents\\GitHub\\SOLIDWORKS-Config-for-TUM-Students-;C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates"
 "Sustainability template Folders"="C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\german"
 "Symbol Library Folders"="C:\\ProgramData\\SolidWorks\\SOLIDWORKS 2025\\lang\\german"
 "Costing template Folders"="C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\german"
@@ -1298,16 +1225,16 @@ REGEDIT4
 "uiIsToolBarActive"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\General]
-"Hide graphics card driver notifications"=dword:00000001
+"Hide graphics card driver notifications"=dword:00000002
 "No Cef"=dword:00000000
 "UserExperienceLevel"=dword:00000001
 "Check Crash Fixes"=dword:00000001
 "MenuVersion"="SOLIDWORKS 2025"
 "is3DExpConnected"=dword:00000000
 "Hide graphics card driver notifications Lock"=dword:00000000
-"last file time"=hex: 14,cd,e8,69,00,00,00,00,
+"last file time"=hex: 69,23,ef,69,00,00,00,00,
 "ActivateTabletThemeOnTouch"=dword:00000001
-"Last Splash Id"=dword:00000006
+"Last Splash Id"=dword:00000001
 "GenerateAssemblyStructure"=dword:00000000
 "GenerateAssemblyStructureAPI"="http://10.35.130.34:5151"
 "AutoRecoverModeChanged"=dword:00000000
@@ -1832,7 +1759,7 @@ REGEDIT4
 "Enable Ctrl+Shift+Alt Key to Show All Faces"=dword:00000001
 "BSOD Staffinator Modulation"=dword:00000001
 "Edit Top Mixed Mode Assembly"=dword:00000000
-"Open Dialog Type"=dword:00000001
+"Open Dialog Type"=dword:00000002
 "Enable Seclore DRM"=dword:00000000
 "BBox Visibility"=dword:00000001
 "LastSyncSettingsTime"=""
@@ -1932,13 +1859,13 @@ REGEDIT4
 "Last Used Holewizard Tab"=dword:00000002
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\General\Addin Performance]
-".\fworks\fworks.dll_AutoLoaded"="0.061"
-".\sldUtils\SwLoaderSw.dll_AutoLoaded"="1.062"
-"C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\Simulation\cosworks.dll"="3.94"
-"3DEXPERIENCE Marketplace"="4.315"
-"SOLIDWORKS Design Checker"="0.141"
-"SOLIDWORKS CAM 2025"="5.549"
-"sldFuncFeat_AutoLoaded"="0.406"
+".\fworks\fworks.dll_AutoLoaded"="0.493"
+".\sldUtils\SwLoaderSw.dll_AutoLoaded"="3.043"
+"C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\Simulation\cosworks.dll"="4.054"
+"3DEXPERIENCE Marketplace"="6.086"
+"SOLIDWORKS Design Checker"="0.128"
+"SOLIDWORKS CAM 2025"="5.229"
+"sldFuncFeat_AutoLoaded"="0.475"
 "sldanalysistools_AutoLoaded"="0.166"
 "C:\PROGRA~1\SOLIDW~1\SOLIDW~1\\Toolbox\\SwBrowser.dll"="2.13"
 "C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\\Toolbox\\SwBrowser.dll"="2.487"
@@ -1975,9 +1902,9 @@ REGEDIT4
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\General\Last Run SolidWorks]
 "SOLIDWORKS_MAJOR_VERSION"=dword:00000021
-"SOLIDWORKS_SP_STRING"="SP4.0"
-"STRFILEVER"="33.4.0.0081"
-"SOLIDWORKS_SP_NUM_MAJORMINOR"="4.0"
+"SOLIDWORKS_SP_STRING"="SP5.0"
+"STRFILEVER"="33.5.0.0053"
+"SOLIDWORKS_SP_NUM_MAJORMINOR"="5.0"
 "SOLIDWORKS_VERSION_STRING"="SOLIDWORKS 2025"
 "SOLIDWORKS_ISCONNECTED"=dword:00000000
 "CONNECTED_LOAD_STATUS"=dword:00000000
@@ -5628,6 +5555,14 @@ REGEDIT4
 "230087"=dword:00000000
 "256073"=dword:00000000
 "230071"=dword:00000000
+"80006"=dword:00000000
+"80005"=dword:00000000
+"80004"=dword:00000000
+"80000"=dword:00000000
+"80001"=dword:00000000
+"80002"=dword:00000000
+"80003"=dword:00000000
+"98301"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Page]
 "Use Documents Settings"=dword:00000001
@@ -5772,6 +5707,8 @@ REGEDIT4
 "PhotoView 360 Survey Done"=dword:00000000
 "PhotoView 360 Invoke Count"=dword:00000000
 
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Pinned File List]
+
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Planes]
 "Default Plane Front Color"=dword:00f78453
 "Default View Port Name"="trimetric"
@@ -5848,22 +5785,22 @@ REGEDIT4
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Recent Folder List]
 "Folder1"="C:\\Users\\malte\\OneDrive\\Solidworks-Config\\Templates|0"
-"Folder2"="C:\\Users\\malte\\OneDrive\\Malte\\Studium\\Kurse\\ME\\ME2\\KGÜ\\Übung1\\Vorgabenteile|0"
-"Folder3"="C:\\Users\\malte\\OneDrive\\Malte\\Studium\\Kurse\\ME\\ME1\\Kleingruppenübung und Zü\\Einheit 6|0"
-"Folder4"="C:\\Users\\malte\\Downloads|0"
-"Folder5"="C:\\Users\\malte\\OneDrive\\Solidworks-Config\\Templates\\Drawing\\V2|0"
-"Folder6"="C:\\Users\\malte\\OneDrive\\Malte\\Studium\\Kurse\\ME\\ME1|0"
-"Folder7"="C:\\Users\\malte\\OneDrive\\Solidworks-Config|0"
-"Folder8"="C:\\Users\\malte\\OneDrive\\3D-München|0"
-"Folder9"="C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\spiop|0"
-"Folder10"="C:\\Users\\malte\\OneDrive\\3D-München\\Schwinglampe|0"
-"Folder11"="C:\\Users\\malte\\OneDrive\\3D-München\\Küchenstrom|0"
-"Folder12"="C:\\Users\\malte\\OneDrive\\Malte\\Studium\\Leben\\Parties\\Clubs\\089|0"
-"Folder13"="C:\\ProgramData\\SolidWorks\\SOLIDWORKS 2025\\templates|0"
-"Folder14"="C:\\PROGRA~1\\SOLIDW~1\\SOLIDW~1\\spiop|0"
-"Folder15"="C:\\Users\\malte\\OneDrive\\Malte\\3D_Drucker\\3D-Prints\\Geschenk\\Weihnachten\\Keychain\\step|0"
-"Folder16"="C:\\Users\\malte\\OneDrive\\Malte\\3D_Drucker\\3D-Prints\\Geschenk\\Weihnachten\\Keychain\\SLDPRT|0"
-"Folder17"=""
+"Folder2"="C:\\Users\\malte\\OneDrive\\Malte\\Studium\\Kurse\\ME\\ME2\\KGÜ\\Übung2|0"
+"Folder3"="C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\spiop|0"
+"Folder4"="C:\\Users\\malte\\OneDrive\\Malte\\Studium\\Kurse\\ME\\ME2\\KGÜ\\Übung1\\Vorgabenteile|0"
+"Folder5"="C:\\Users\\malte\\OneDrive\\Malte\\Studium\\Kurse\\ME\\ME1\\Kleingruppenübung und Zü\\Einheit 6|0"
+"Folder6"="C:\\Users\\malte\\Downloads|0"
+"Folder7"="C:\\Users\\malte\\OneDrive\\Solidworks-Config\\Templates\\Drawing\\V2|0"
+"Folder8"="C:\\Users\\malte\\OneDrive\\Malte\\Studium\\Kurse\\ME\\ME1|0"
+"Folder9"="C:\\Users\\malte\\OneDrive\\Solidworks-Config|0"
+"Folder10"="C:\\Users\\malte\\OneDrive\\3D-München|0"
+"Folder11"="C:\\Users\\malte\\OneDrive\\3D-München\\Schwinglampe|0"
+"Folder12"="C:\\Users\\malte\\OneDrive\\3D-München\\Küchenstrom|0"
+"Folder13"="C:\\Users\\malte\\OneDrive\\Malte\\Studium\\Leben\\Parties\\Clubs\\089|0"
+"Folder14"="C:\\ProgramData\\SolidWorks\\SOLIDWORKS 2025\\templates|0"
+"Folder15"="C:\\PROGRA~1\\SOLIDW~1\\SOLIDW~1\\spiop|0"
+"Folder16"="C:\\Users\\malte\\OneDrive\\Malte\\3D_Drucker\\3D-Prints\\Geschenk\\Weihnachten\\Keychain\\step|0"
+"Folder17"="C:\\Users\\malte\\OneDrive\\Malte\\3D_Drucker\\3D-Prints\\Geschenk\\Weihnachten\\Keychain\\SLDPRT|0"
 "Folder18"=""
 "Folder19"=""
 "Folder20"=""
@@ -6075,12 +6012,13 @@ REGEDIT4
 "LINIENFOR"="33488"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Security]
+"EULA Accepted 2025 SP5.0 DESKTOP-MALTE-2 malte"="Yes"
 "EULA Accepted 2025 SP4.0 DESKTOP-MALTE malte"="Yes"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Settings]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Setup]
-"Install Date Stamp"="23.09.2025 14:08:57"
+"Install Date Stamp"="25.04.2026 00:25:54"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\SheetMetal]
 "Enable New MBSM Architecture"=dword:00000001
@@ -6102,7 +6040,7 @@ REGEDIT4
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager]
 "Show Description"="1"
-"Caption Version"="33,4"
+"Caption Version"="33,5"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext]
 "Active Tab Index"="2"
@@ -6374,7 +6312,7 @@ REGEDIT4
 "Btn0"="2,41156"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext1]
-"contextid"="1"
+"contextid"="2"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext1\GB0]
 "Btn0"="2,41160"
@@ -6402,7 +6340,7 @@ REGEDIT4
 "Btn0"="2,41156"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext10]
-"contextid"="100"
+"contextid"="13"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext10\GB0]
 "Btn0"="2,41160"
@@ -6412,26 +6350,22 @@ REGEDIT4
 "Btn1"="2,41161"
 "Btn2"="2,41165"
 "Btn3"="2,41166"
-"Btn4"="2,41172"
-"Btn5"="2,41173"
-"Btn6"="2,41162"
+"Btn4"="2,41182"
+"Btn5"="2,41183"
+"Btn6"="2,41173"
+"Btn7"="2,41162"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext10\GB2]
 "Btn0"="2,41163"
-"Btn1"="2,41051"
-"Btn2"="2,41050"
-"Btn3"="3,41055"
-"Btn4"="3,41164"
+"Btn1"="2,41050"
+"Btn2"="3,41164"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext10\GB3]
 "Btn0"="3,40977"
 "Btn1"="3,41168"
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext10\GB4]
-"Btn0"="2,41156"
-
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext11]
-"contextid"="13"
+"contextid"="100"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext11\GB0]
 "Btn0"="2,41160"
@@ -6441,19 +6375,23 @@ REGEDIT4
 "Btn1"="2,41161"
 "Btn2"="2,41165"
 "Btn3"="2,41166"
-"Btn4"="2,41182"
-"Btn5"="2,41183"
-"Btn6"="2,41173"
-"Btn7"="2,41162"
+"Btn4"="2,41172"
+"Btn5"="2,41173"
+"Btn6"="2,41162"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext11\GB2]
 "Btn0"="2,41163"
-"Btn1"="2,41050"
-"Btn2"="3,41164"
+"Btn1"="2,41051"
+"Btn2"="2,41050"
+"Btn3"="3,41055"
+"Btn4"="3,41164"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext11\GB3]
 "Btn0"="3,40977"
 "Btn1"="3,41168"
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext11\GB4]
+"Btn0"="2,41156"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext12]
 "contextid"="105"
@@ -6567,7 +6505,7 @@ REGEDIT4
 "Btn0"="2,41156"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext2]
-"contextid"="2"
+"contextid"="1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext2\GB0]
 "Btn0"="2,41160"
@@ -6595,18 +6533,21 @@ REGEDIT4
 "Btn0"="2,41156"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext3]
-"contextid"="3"
+"contextid"="5"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext3\GB0]
 "Btn0"="2,41160"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext3\GB1]
 "Btn0"="2,40954"
-"Btn1"="2,41154"
-"Btn2"="2,41166"
-"Btn3"="2,41172"
-"Btn4"="2,41173"
-"Btn5"="2,41162"
+"Btn1"="2,41161"
+"Btn2"="2,41165"
+"Btn3"="2,41166"
+"Btn4"="2,41172"
+"Btn5"="2,41173"
+"Btn6"="2,41162"
+"Btn7"="2,41016"
+"Btn8"="2,41017"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext3\GB2]
 "Btn0"="2,41163"
@@ -6619,7 +6560,8 @@ REGEDIT4
 "Btn1"="3,41168"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext3\GB4]
-"Btn0"="2,41156"
+"Btn0"="3,41174"
+"Btn1"="3,41175"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext4]
 "contextid"="4"
@@ -6639,21 +6581,18 @@ REGEDIT4
 "Btn0"="2,41152"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext5]
-"contextid"="5"
+"contextid"="3"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext5\GB0]
 "Btn0"="2,41160"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext5\GB1]
 "Btn0"="2,40954"
-"Btn1"="2,41161"
-"Btn2"="2,41165"
-"Btn3"="2,41166"
-"Btn4"="2,41172"
-"Btn5"="2,41173"
-"Btn6"="2,41162"
-"Btn7"="2,41016"
-"Btn8"="2,41017"
+"Btn1"="2,41154"
+"Btn2"="2,41166"
+"Btn3"="2,41172"
+"Btn4"="2,41173"
+"Btn5"="2,41162"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext5\GB2]
 "Btn0"="2,41163"
@@ -6666,21 +6605,17 @@ REGEDIT4
 "Btn1"="3,41168"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext5\GB4]
-"Btn0"="3,41174"
-"Btn1"="3,41175"
+"Btn0"="2,41156"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext6]
-"contextid"="6"
+"contextid"="7"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext6\GB0]
 "Btn0"="2,41160"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext6\GB1]
-"Btn0"="2,40954"
-"Btn1"="2,41166"
-"Btn2"="2,41016"
-"Btn3"="2,41173"
-"Btn4"="2,41162"
+"Btn0"="2,41173"
+"Btn1"="2,41162"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext6\GB2]
 "Btn0"="2,41163"
@@ -6692,15 +6627,21 @@ REGEDIT4
 "Btn0"="3,40977"
 "Btn1"="3,41168"
 
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext6\GB4]
+"Btn0"="2,41157"
+
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext7]
-"contextid"="7"
+"contextid"="6"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext7\GB0]
 "Btn0"="2,41160"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext7\GB1]
-"Btn0"="2,41173"
-"Btn1"="2,41162"
+"Btn0"="2,40954"
+"Btn1"="2,41166"
+"Btn2"="2,41016"
+"Btn3"="2,41173"
+"Btn4"="2,41162"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext7\GB2]
 "Btn0"="2,41163"
@@ -6712,25 +6653,14 @@ REGEDIT4
 "Btn0"="3,40977"
 "Btn1"="3,41168"
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext7\GB4]
-"Btn0"="2,41157"
-
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext8]
-"contextid"="8"
+"contextid"="9"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext8\GB0]
 "Btn0"="2,41160"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext8\GB1]
-"Btn0"="2,40954"
-"Btn1"="2,41161"
-"Btn2"="2,41165"
-"Btn3"="2,41166"
-"Btn4"="2,41172"
-"Btn5"="2,41173"
-"Btn6"="2,41162"
-"Btn7"="2,41016"
-"Btn8"="2,41017"
+"Btn0"="2,41162"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext8\GB2]
 "Btn0"="2,41163"
@@ -6743,13 +6673,21 @@ REGEDIT4
 "Btn1"="3,41168"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext9]
-"contextid"="9"
+"contextid"="8"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext9\GB0]
 "Btn0"="2,41160"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext9\GB1]
-"Btn0"="2,41162"
+"Btn0"="2,40954"
+"Btn1"="2,41161"
+"Btn2"="2,41165"
+"Btn3"="2,41166"
+"Btn4"="2,41172"
+"Btn5"="2,41173"
+"Btn6"="2,41162"
+"Btn7"="2,41016"
+"Btn8"="2,41017"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\AssyContext\Tab15\TabContext9\GB2]
 "Btn0"="2,41163"
@@ -7351,7 +7289,7 @@ REGEDIT4
 "Btn0"="2,33551"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext]
-"Active Tab Index"="2"
+"Active Tab Index"="4"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab0]
 "Tab Props"="364,1,0,33"
@@ -7814,7 +7752,7 @@ REGEDIT4
 "Btn0"="2,41156"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext1]
-"contextid"="1"
+"contextid"="2"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext1\GB0]
 "Btn0"="2,41160"
@@ -7842,7 +7780,7 @@ REGEDIT4
 "Btn0"="2,41156"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext10]
-"contextid"="100"
+"contextid"="13"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext10\GB0]
 "Btn0"="2,41160"
@@ -7852,26 +7790,22 @@ REGEDIT4
 "Btn1"="2,41161"
 "Btn2"="2,41165"
 "Btn3"="2,41166"
-"Btn4"="2,41172"
-"Btn5"="2,41173"
-"Btn6"="2,41162"
+"Btn4"="2,41182"
+"Btn5"="2,41183"
+"Btn6"="2,41173"
+"Btn7"="2,41162"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext10\GB2]
 "Btn0"="2,41163"
-"Btn1"="2,41051"
-"Btn2"="2,41050"
-"Btn3"="3,41055"
-"Btn4"="3,41164"
+"Btn1"="2,41050"
+"Btn2"="3,41164"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext10\GB3]
 "Btn0"="3,40977"
 "Btn1"="3,41168"
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext10\GB4]
-"Btn0"="2,41156"
-
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext11]
-"contextid"="13"
+"contextid"="100"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext11\GB0]
 "Btn0"="2,41160"
@@ -7881,19 +7815,23 @@ REGEDIT4
 "Btn1"="2,41161"
 "Btn2"="2,41165"
 "Btn3"="2,41166"
-"Btn4"="2,41182"
-"Btn5"="2,41183"
-"Btn6"="2,41173"
-"Btn7"="2,41162"
+"Btn4"="2,41172"
+"Btn5"="2,41173"
+"Btn6"="2,41162"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext11\GB2]
 "Btn0"="2,41163"
-"Btn1"="2,41050"
-"Btn2"="3,41164"
+"Btn1"="2,41051"
+"Btn2"="2,41050"
+"Btn3"="3,41055"
+"Btn4"="3,41164"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext11\GB3]
 "Btn0"="3,40977"
 "Btn1"="3,41168"
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext11\GB4]
+"Btn0"="2,41156"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext12]
 "contextid"="105"
@@ -8007,7 +7945,7 @@ REGEDIT4
 "Btn0"="2,41156"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext2]
-"contextid"="2"
+"contextid"="1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext2\GB0]
 "Btn0"="2,41160"
@@ -8035,18 +7973,21 @@ REGEDIT4
 "Btn0"="2,41156"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext3]
-"contextid"="3"
+"contextid"="5"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext3\GB0]
 "Btn0"="2,41160"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext3\GB1]
 "Btn0"="2,40954"
-"Btn1"="2,41154"
-"Btn2"="2,41166"
-"Btn3"="2,41172"
-"Btn4"="2,41173"
-"Btn5"="2,41162"
+"Btn1"="2,41161"
+"Btn2"="2,41165"
+"Btn3"="2,41166"
+"Btn4"="2,41172"
+"Btn5"="2,41173"
+"Btn6"="2,41162"
+"Btn7"="2,41016"
+"Btn8"="2,41017"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext3\GB2]
 "Btn0"="2,41163"
@@ -8059,7 +8000,8 @@ REGEDIT4
 "Btn1"="3,41168"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext3\GB4]
-"Btn0"="2,41156"
+"Btn0"="3,41174"
+"Btn1"="3,41175"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext4]
 "contextid"="4"
@@ -8079,21 +8021,18 @@ REGEDIT4
 "Btn0"="2,41152"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext5]
-"contextid"="5"
+"contextid"="3"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext5\GB0]
 "Btn0"="2,41160"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext5\GB1]
 "Btn0"="2,40954"
-"Btn1"="2,41161"
-"Btn2"="2,41165"
-"Btn3"="2,41166"
-"Btn4"="2,41172"
-"Btn5"="2,41173"
-"Btn6"="2,41162"
-"Btn7"="2,41016"
-"Btn8"="2,41017"
+"Btn1"="2,41154"
+"Btn2"="2,41166"
+"Btn3"="2,41172"
+"Btn4"="2,41173"
+"Btn5"="2,41162"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext5\GB2]
 "Btn0"="2,41163"
@@ -8106,21 +8045,17 @@ REGEDIT4
 "Btn1"="3,41168"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext5\GB4]
-"Btn0"="3,41174"
-"Btn1"="3,41175"
+"Btn0"="2,41156"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext6]
-"contextid"="6"
+"contextid"="7"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext6\GB0]
 "Btn0"="2,41160"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext6\GB1]
-"Btn0"="2,40954"
-"Btn1"="2,41166"
-"Btn2"="2,41016"
-"Btn3"="2,41173"
-"Btn4"="2,41162"
+"Btn0"="2,41173"
+"Btn1"="2,41162"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext6\GB2]
 "Btn0"="2,41163"
@@ -8132,15 +8067,21 @@ REGEDIT4
 "Btn0"="3,40977"
 "Btn1"="3,41168"
 
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext6\GB4]
+"Btn0"="2,41157"
+
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext7]
-"contextid"="7"
+"contextid"="6"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext7\GB0]
 "Btn0"="2,41160"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext7\GB1]
-"Btn0"="2,41173"
-"Btn1"="2,41162"
+"Btn0"="2,40954"
+"Btn1"="2,41166"
+"Btn2"="2,41016"
+"Btn3"="2,41173"
+"Btn4"="2,41162"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext7\GB2]
 "Btn0"="2,41163"
@@ -8152,25 +8093,14 @@ REGEDIT4
 "Btn0"="3,40977"
 "Btn1"="3,41168"
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext7\GB4]
-"Btn0"="2,41157"
-
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext8]
-"contextid"="8"
+"contextid"="9"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext8\GB0]
 "Btn0"="2,41160"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext8\GB1]
-"Btn0"="2,40954"
-"Btn1"="2,41161"
-"Btn2"="2,41165"
-"Btn3"="2,41166"
-"Btn4"="2,41172"
-"Btn5"="2,41173"
-"Btn6"="2,41162"
-"Btn7"="2,41016"
-"Btn8"="2,41017"
+"Btn0"="2,41162"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext8\GB2]
 "Btn0"="2,41163"
@@ -8183,13 +8113,21 @@ REGEDIT4
 "Btn1"="3,41168"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext9]
-"contextid"="9"
+"contextid"="8"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext9\GB0]
 "Btn0"="2,41160"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext9\GB1]
-"Btn0"="2,41162"
+"Btn0"="2,40954"
+"Btn1"="2,41161"
+"Btn2"="2,41165"
+"Btn3"="2,41166"
+"Btn4"="2,41172"
+"Btn5"="2,41173"
+"Btn6"="2,41162"
+"Btn7"="2,41016"
+"Btn8"="2,41017"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab21\TabContext9\GB2]
 "Btn0"="2,41163"
@@ -8239,7 +8177,7 @@ REGEDIT4
 "Btn4"="2,55245"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab23]
-"Tab Props"="30228,1,0,24"
+"Tab Props"="30228,1,1,24"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\CommandManager\PartContext\Tab23\GB0]
 "Btn0"="2,38290"
@@ -8576,7 +8514,7 @@ REGEDIT4
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\TaskPane\Konstruktionsbibliothek]
 "Visiblity"=dword:00000001
 "Position"=dword:00000002
-"Default"=dword:00000000
+"Default"=dword:00000001
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\Simplified Interface\User Interface\TaskPane\SOLIDWORKS Anwenderforum]
 "Visiblity"=dword:00000001
@@ -8682,16 +8620,16 @@ REGEDIT4
 "ExtrasSldmatUpdated"="Yes"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\SW Event Log]
-"Send Feedback Enabled"=dword:00000000
-"Last Sync Date"="09/23/2025 14:37:27"
-"Feedback Remind Date"=""
+"Send Feedback Enabled"=dword:00000002
+"Last Sync Date"="04/25/2026 01:19:10"
+"Feedback Remind Date"="04/25/2026 01:19:10"
 "File Have Been Sent"=dword:00000000
 "New Dump File Available"=dword:00000000
 "Finished Last Time"=dword:00000000
-"Last Date Code"="33/2025203"
-"Check In"=dword:0000206a
-"Idle"=dword:00000f0e
-"Last Settings Time"=dword:69d9a1d6
+"Last Date Code"="33/2025268"
+"Check In"=dword:000000d7
+"Idle"=dword:0000073c
+"Last Settings Time"=dword:69ee26eb
 "Disable Crash Diagnosis"=dword:00000000
 "Force Sequence"=dword:00000000
 
@@ -8962,22 +8900,23 @@ REGEDIT4
 "uiUnitsDimStdDlg_c"="0,1,-1,-1,-1,-1,488,350,798,690"
 "uiNewDocDlg_c"="0,1,-1,-1,-1,-1,339,285,1057,822"
 "uiAddInDlg_c"="0,1,-1,-1,-1,-1,483,244,794,720"
-"uiInsertCompExistingDveDlg3_c"="0,1,-1,-1,-1,-1,0,0,221,744"
+"uiInsertCompExistingDveDlg3_c"="0,1,-1,-1,-1,-1,0,0,217,744"
 "uiInsertCompExistingDveDlg3_copts"="dexps_7_prv_1_tfmexps_0_rotdlg_1_"
 "uiNamedViewDveDlg_c"="0,1,-1,-1,-1,-1,0,0,217,476"
 "uiNamedViewDveDlg_copts"="dexps_8191_"
-"uiDVEDefaultDialog_c"="0,1,-1,-1,-1,-1,0,0,217,80"
+"uiDVEDefaultDialog_c"="0,1,-1,-1,-1,-1,0,0,221,80"
 "uiWelcomeScreenDlg_c"="0,1,-1,-1,-1,-1,373,0,1173,650"
+"uiOptionsBase_c"="0,1,-1,-1,-1,-1,429,30,1490,1049"
 "uiDveSketchMessageDlg_c"="0,1,-1,-1,-1,-1,0,0,221,93"
 "uiDveSketchMessageDlg_copts"="tfmexps_0_dexps_3_"
 "uiArcPropDlg_c"="0,1,-1,-1,-1,-1,0,0,221,219"
-"uiParamDlg"="0,1,-1,-1,-1,-1,1043,527,1255,662"
-"uiDVEMultiDimPropPageValue_c"="0,1,-1,-1,-1,-1,0,0,217,635"
+"uiParamDlg"="0,1,-1,-1,-1,-1,759,372,971,507"
+"uiDVEMultiDimPropPageValue_c"="0,1,-1,-1,-1,-1,0,0,221,611"
 "uiDveEndSpecDlg_copts"="tfmexps_0_dexps_32754_"
 "uiDveEndSpecDlg_c"="0,1,-1,-1,-1,-1,0,0,217,391"
 "uiPreviewDlg_c"="0,1,-1,-1,-1,-1,0,0,217,106"
-"uiLinePropDlg_c"="0,1,-1,-1,-1,-1,0,0,221,334"
-"uiLinePropDlg_copts"="dexps_39_tfmexps_0_"
+"uiLinePropDlg_c"="0,1,-1,-1,-1,-1,0,0,221,409"
+"uiLinePropDlg_copts"="dexps_71_tfmexps_0_"
 "uiTrimChoicesDlg_c"="0,1,-1,-1,-1,-1,0,0,221,555"
 "uiTrimChoicesDlg_copts"="dexps_3_trimMode_1_tfmexps_0_"
 "uiPointPropDlg_c"="0,1,-1,-1,-1,-1,0,0,217,391"
@@ -9003,7 +8942,7 @@ REGEDIT4
 "uiMeasureDlg_c"="0,1,-1,-1,-1,-1,0,0,396,36"
 "uiInterferAsmDveDlg_c"="0,1,-1,-1,-1,-1,0,0,212,848"
 "uiInterferAsmDveDlg_copts"="dexps_30_"
-"uiSkRectangleProp_c"="0,1,-1,-1,-1,-1,0,0,217,599"
+"uiSkRectangleProp_c"="0,1,-1,-1,-1,-1,0,0,221,553"
 "uiDveSketchConvertEntDlg_c"="0,1,-1,-1,-1,-1,0,0,217,193"
 "uiConfDeleteDlg_c"="0,1,-1,-1,-1,-1,781,394,1139,685"
 "uiDveSketchConvertEntDlg_copts"="tfmexps_0_"
@@ -9044,7 +8983,6 @@ REGEDIT4
 "uiPosGroupDlg_copts"="dexps_62_"
 "uiEquationDlg_c"="0,1,-1,-1,-1,-1,0,0,832,336"
 "uiEquationDlg_copts"="AR_0_GV_1_GC1U_30_GC2U_32_GC3U_15_"
-"uiOptionsBase_c"="0,1,-1,-1,-1,-1,429,30,1490,1049"
 "su_CDialogopts"="locationX_348_locationY_978_"
 "uiNamedViewDlg_c"="0,1,-1,-1,-1,-1,1327,798,1578,1016"
 "uiSkDiagDlg_c"="0,1,-1,-1,-1,-1,9,124,345,256"
@@ -9222,6 +9160,7 @@ REGEDIT4
 "uiScaleAnnotationsDlg_c"="0,1,-1,-1,-1,-1,842,488,1082,642"
 "uiDveSketchReplaceEntityDlg_c"="0,1,-1,-1,-1,-1,0,0,217,309"
 "uiDveSketchReplaceEntityDlg_copts"="dexps_3_makeconstruction_1_deletereplacedent_0_makesolid_1_pin_0_"
+"uiFontReplacementDlg_c"="0,1,-1,-1,-1,-1,720,447,1200,632"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\User Interface\FM Tabs]
 
@@ -9344,7 +9283,7 @@ REGEDIT4
 "sizeHorzCX"=dword:00000064
 "sizeHorzCY"=dword:0000012c
 "sizeVertCX"=dword:00000152
-"sizeVertCY"=dword:000003e3
+"sizeVertCY"=dword:000003f3
 "sizeFloatCX"=dword:000000fa
 "sizeFloatCY"=dword:000001f4
 "autoHiding"=dword:00000000
@@ -9689,9 +9628,9 @@ REGEDIT4
 "Docking"=dword:00000001
 "MRUDockID"=dword:0000e81b
 "MRUDockLeftPos"=dword:00000000
-"MRUDockTopPos"=dword:ffffffff
+"MRUDockTopPos"=dword:00000000
 "MRUDockRightPos"=dword:000000d4
-"MRUDockBottomPos"=dword:00000021
+"MRUDockBottomPos"=dword:00000022
 "MRUFloatStyle"=dword:00002000
 "MRUFloatXPos"=dword:80000000
 "MRUFloatYPos"=dword:80000000
@@ -9864,13 +9803,12 @@ REGEDIT4
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\User Interface\General-Bar26]
 "BarID"=dword:0000e816
 "Visible"=dword:00000000
-"YPos"=dword:00000020
 "Docking"=dword:00000001
 "MRUDockID"=dword:00000000
 "MRUDockLeftPos"=dword:ffffffff
-"MRUDockTopPos"=dword:00000020
+"MRUDockTopPos"=dword:ffffffff
 "MRUDockRightPos"=dword:000003c3
-"MRUDockBottomPos"=dword:00000042
+"MRUDockBottomPos"=dword:00000021
 "MRUFloatStyle"=dword:00002000
 "MRUFloatXPos"=dword:80000000
 "MRUFloatYPos"=dword:80000000
@@ -10850,20 +10788,19 @@ REGEDIT4
 "MRUDockLeftPos"=dword:ffffffff
 "MRUDockTopPos"=dword:ffffffff
 "MRUDockRightPos"=dword:00000151
-"MRUDockBottomPos"=dword:000003b1
+"MRUDockBottomPos"=dword:000003f2
 "MRUFloatStyle"=dword:00000004
 "MRUFloatXPos"=dword:80000000
 "MRUFloatYPos"=dword:80000000
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\User Interface\General-Bar84]
 "BarID"=dword:00002707
-"YPos"=dword:00000041
 "Docking"=dword:00000001
 "MRUDockID"=dword:00000000
 "MRUDockLeftPos"=dword:ffffffff
-"MRUDockTopPos"=dword:00000041
+"MRUDockTopPos"=dword:ffffffff
 "MRUDockRightPos"=dword:ffffffff
-"MRUDockBottomPos"=dword:00000041
+"MRUDockBottomPos"=dword:ffffffff
 "MRUFloatStyle"=dword:00002000
 "MRUFloatXPos"=dword:80000000
 "MRUFloatYPos"=dword:00000000
@@ -10883,8 +10820,8 @@ REGEDIT4
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
-"XPos"=dword:00000308
-"YPos"=dword:000000e1
+"XPos"=dword:0000030a
+"YPos"=dword:00000111
 "Bars"=dword:00000003
 "Bar#0"=dword:00000000
 "Bar#1"=dword:0000e857
@@ -11121,7 +11058,6 @@ REGEDIT4
 "uiPMDockingPaneMiniWnd_AutoCollaping"=dword:00000001
 "Previous Version Selection"="SOLIDWORKS 2024"
 "swCMgrMiniDockWnd_AutoCollaping"=dword:00000000
-"document1"="2,3,-1,-1,-8,-31,0,0,1829,987,C:\\Users\\malte\\OneDrive\\Solidworks-Config\\Templates\\part-V2.PRTDOT"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2025\User Interface\Settings\Dial]
 "XOffset"=dword:00000190
