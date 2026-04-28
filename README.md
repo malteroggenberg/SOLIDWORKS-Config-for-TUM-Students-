@@ -18,7 +18,7 @@ Includes:
 
 3. Run:
 
-install_font.bat
+1_INSTALL_FONT.bat
 
 (required for correct drawing appearance)
 
