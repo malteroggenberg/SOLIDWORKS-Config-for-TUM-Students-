@@ -1,2 +1,3 @@
 # Exclude sheet formats (temporary due to licensing clarification)
 Sheet-format/
+Installation-files/ 
