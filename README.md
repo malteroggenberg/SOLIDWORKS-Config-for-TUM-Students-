@@ -5,7 +5,7 @@ They are based on materials originally provided within TUM coursework and are th
 Please note that some template settings still reference the original Sheet-format folder.
 For full functionality, keep the existing folder structure or adjust the file paths accordingly.
 
-The missing files will be restored or replaced once this has been resolved.
+The missing files will be replaced within the next 2 weeks
 
 # SOLIDWORKS TUM Config
 
